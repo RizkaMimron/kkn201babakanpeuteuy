@@ -4,26 +4,31 @@ import {
 
 export const featuresData = [
   {
-    color: "green", 
+    color: "blue", 
     title: "Lokasi KKN",
     icon: ChatBubbleBottomCenterTextIcon,
+    order: 2, // Tambahkan properti order
     description:
       "Lokasi KKN Sisdamas Kelompok 201 Bertemapt di Desa Babakanpeuteuy Kecamatan Cicalengka Kabupaten Bandung Timur Jawa Barat",
+      
   },
+
   {
-    color: "green",
+    color: "blue",
+    title: "Target KKN",
+    icon: ChatBubbleBottomCenterTextIcon,
+    description: "Mampu menerapkan ipteks secara multidisipliner bagi kepentingan masyarakat dan meningkatkan interaksi, pemahaman dan kepedulian mahasiswa dari berbagai prodi dalam memberdayakan masyarakat.",
+  },
+
+  {
+    color: "blue",
     title: "Waktu Pelaksanaan",
     icon: ChatBubbleBottomCenterTextIcon,
     description:
       "KKN Sisdamas Dilaksanakan Dari Mulai Tanggal 28 Juli 2024 sampai Tanggal 30 Agustus 2024",
   },
   
-    {
-      color: "blue",
-      title: "Verified Company",
-      icon: ChatBubbleBottomCenterTextIcon,
-      description: "Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!",
-    }
+   
     
 ];
 

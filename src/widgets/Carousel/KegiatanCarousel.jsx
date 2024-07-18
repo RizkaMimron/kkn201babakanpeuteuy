@@ -51,7 +51,7 @@ const KegiatanCarousel = () => {
               >
                 Pembahasan Fiksasi Bidang dan RAB
               </Typography>
-              <Typography className="font-normal text-blue-gray-500">
+              <Typography className="mb-6 font-normal text-blue-gray-500 text-justify">
                 Pada pertemuan kelompok KKN Sisdamas Kelompok 201 yang dilaksanakan pada tanggal 12 Juni, kami membahas secara mendalam mengenai fiksasi bidang dan penyusunan Rencana Anggaran Biaya (RAB) untuk berbagai program kerja yang akan dilaksanakan selama periode KKN di Desa Babakanpeuteuy, Kecamatan Cicalengka, Kabupaten Bandung Timur.
               </Typography>
             </CardBody>
@@ -75,7 +75,7 @@ const KegiatanCarousel = () => {
               >
                 Evaluasi Tengah Kegiatan
               </Typography>
-              <Typography className="font-normal text-blue-gray-500">
+              <Typography className="mb-6 font-normal text-blue-gray-500 text-justify">
                 Pada pertemuan kedua, kami mengevaluasi progres kegiatan yang telah berjalan dan menyusun strategi untuk menyelesaikan kegiatan sesuai dengan rencana.
               </Typography>
             </CardBody>
@@ -99,7 +99,7 @@ const KegiatanCarousel = () => {
               >
                 Penutupan dan Laporan Akhir
               </Typography>
-              <Typography className="font-normal text-blue-gray-500">
+              <Typography className="mb-6 font-normal text-blue-gray-500 text-justify">
                 Pada pertemuan ketiga, kami menyusun laporan akhir dan mengadakan acara penutupan dengan masyarakat setempat untuk merayakan keberhasilan program kerja yang telah dilaksanakan.
               </Typography>
             </CardBody>

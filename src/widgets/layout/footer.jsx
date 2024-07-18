@@ -79,15 +79,10 @@ export function Footer({ title, description, socials, menus, copyright }) {
 }
 
 Footer.defaultProps = {
-  title: "Material Tailwind",
+  title: "Ikuti Sosial Media Kami",
   description:
-    "Easy to use React components for Tailwind CSS and Material Design.",
+    "Kenali Lebih Dekat Dengan Kelompok 201 KKN Sisdamas",
   socials: [
-    {
-      color: "gray",
-      name: "twitter",
-      path: "https://www.twitter.com/creativetim",
-    },
     {
       color: "gray",
       name: "youtube",
@@ -96,12 +91,12 @@ Footer.defaultProps = {
     {
       color: "gray",
       name: "instagram",
-      path: "https://www.instagram.com/creativetimofficial/",
+      path: "https://www.instagram.com/kkn201_babakanpeuteuy/",
     },
     {
       color: "black",
-      name: "github",
-      path: "https://github.com/creativetimofficial/material-tailwind",
+      name: "tiktok",
+      path: "https://www.tiktok.com/@kkn201_uinbdg/",
     },
   ],
   menus: [

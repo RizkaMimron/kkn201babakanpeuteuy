@@ -158,7 +158,7 @@ export function Home() {
               >
                Dokumentasi Seluruh Kegiatan
               </Typography>
-              <Typography className="mb-8 font-normal text-blue-gray-500">
+              <Typography className="mb-6 font-normal text-blue-gray-500 text-justify">
               Kegiatan Kuliah Kerja Nyata (KKN) Sisdamas Kelompok 201 di Desa Babakanpeuteuy, Kecamatan Cicalengka, Kabupaten Bandung Timur, Jawa Barat, dilaksanakan dengan penuh semangat dan dedikasi oleh seluruh anggota kelompok.
                 <br />
                 <br />
@@ -224,8 +224,8 @@ export function Home() {
               </Card>
             ))}
           </div>
-          <PageTitle section="Contact Us" heading="Want to work with us?">
-            Complete this form and we will get back to you in 24 hours.
+          <PageTitle section="Kontak Kami" heading="">
+          Kirimkan Pesan Anda. Karena pertemuan Adalah Kabar !
           </PageTitle>
           <form className="mx-auto w-full mt-12 lg:w-5/12">
             <div className="mb-8 flex gap-8">
