@@ -9,8 +9,8 @@ import { Footer } from "@/widgets/layout";
 export function Profile() {
   return (
     <>
-      <section className="relative block h-[50vh]">
-        <div className="bg-profile-background absolute top-0 h-full w-full bg-[url('/img/background-1.jpg')] bg-cover bg-center scale-105" />
+      <section className="relative block h-screen"> {/* Changed h-[50vh] to h-screen */}
+        <div className="absolute top-0 h-full w-full bg-[url('/img/background-1.jpg')] bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/60 bg-cover bg-center" />
       </section>
       <section className="relative bg-white py-16">
@@ -18,6 +18,7 @@ export function Profile() {
           <div className="container mx-auto">
             <div className="flex flex-col">
               <div className="relative flex gap-6 items-start">
+                
                 {/* <div className="-mt--2 w-40">
                   <Avatar
                     src="/img/logokkn.png"
@@ -131,13 +132,12 @@ export function Profile() {
                 <Typography className="mb-6 font-normal text-blue-gray-500 text-justify">
                   Para Mahasiswa UIN SGD Bandung yang datang dari berbagai Jurusan dan berasal dari daerah asal yang berbeda yang kemudian di pertemukan di KKN Sisdamas 2024 untuk mengabdi dan mengimplementasikan Tri Darma Perguruan Tinggi nya dengan penuh dedikasi.
                 </Typography>
-        
-              </div>
-              </div>
-            </div>
+                
+                <Typography variant="h4" color="blue-gray text-justify">         
+                 Peta Lokasi Babakanpeuteuy
+                  </Typography>
 
-            <div className="mt-10">
-              <iframe
+                <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.118314579644!2d107.71821431432122!3d-7.01537049493367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e68aafbfac23%3A0x3a83d927e51a38db!2sDesa%20Babakanpeuteuy%2C%20Kec.%20Cicalengka%2C%20Kab.%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sen!2sid!4v1624259353735!5m2!1sen!2sid"
                 width="600"
                 height="450"
@@ -145,6 +145,13 @@ export function Profile() {
                 allowFullScreen=""
                 loading="lazy"
               ></iframe>
+        
+              </div>
+              </div>
+            </div>
+
+            <div className="mt-10">
+              
 
 </div>
 

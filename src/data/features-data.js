@@ -7,7 +7,7 @@ export const featuresData = [
     color: "blue", 
     title: "Lokasi KKN",
     icon: ChatBubbleBottomCenterTextIcon,
-    order: 2, // Tambahkan properti order
+    order: 2, 
     description:
       "Lokasi KKN Sisdamas Kelompok 201 Bertemapt di Desa Babakanpeuteuy Kecamatan Cicalengka Kabupaten Bandung Timur Jawa Barat",
       

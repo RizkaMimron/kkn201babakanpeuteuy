@@ -144,9 +144,19 @@ export function Home() {
             ))}
           </div> */}
         </div>
+
+        
+        <Typography
+                variant="h3"
+                className="mb--10 mt-10 font-bold text-center"
+                color="blue-gray" >           
+                 Semua Aktifitas KKN
+              </Typography>
       </section>
-      <section className="md:pl-20 lg:px-20">
-            <div className="mt-32 flex flex-wrap items-center">
+     
+              
+            <section className="md:pl-20 lg:px-20">
+            <div className="mt-10 flex flex-wrap items-center">
             <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
               <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-gray-900 p-2 text-center shadow-lg">
                 <FingerPrintIcon className="h-8 w-8 text-white " />
