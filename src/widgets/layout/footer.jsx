@@ -81,7 +81,7 @@ export function Footer({ title, description, socials, menus, copyright }) {
 Footer.defaultProps = {
   title: "Ikuti Sosial Media Kami",
   description:
-    "Kenali Lebih Dekat Dengan Kelompok 201 KKN Sisdamas",
+    "Kenali Lebih Dekat Dengan Kelompok 201 KKN Sisdamass",
   socials: [
     {
       color: "gray",
