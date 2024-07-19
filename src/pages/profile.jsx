@@ -13,8 +13,8 @@ export function Profile() {
         <div className="absolute top-0 h-full w-full bg-[url('/img/background-1.jpg')] bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/60 bg-cover bg-center" />
       </section>
-      <section className="relative bg-white py-16">
-        <div className="relative mb-6 -mt-40 flex w-full px-4 min-w-0 flex-col break-words bg-white">
+      <section className="relative bg-[#0F172A] py-16">
+        <div className="relative mb-6 -mt-40 flex w-full px-4 min-w-0 flex-col break-words bg-[#0F172A]">
           <div className="container mx-auto">
             <div className="flex flex-col">
               <div className="relative flex gap-6 items-start">
@@ -28,23 +28,23 @@ export function Profile() {
                   />
                 </div> */}
                 <div className="flex flex-col mt-8">
-                  <Typography variant="h4" color="blue-gray">
+                  <Typography variant="h4" color="white">
                     KKN SIDAMAS 201
                   </Typography>
                   {/* <Typography variant="paragraph" color="gray" className="!mt-0 font-normal">
                     kkn201babakanpeuteuy@gmail.com
                   </Typography> */}
                   <div className="flex gap-3 sm:gap-5 mt-3">
-                    <a href="https://www.instagram.com/kkn201_babakanpeuteuy/" target="_blank" className="hover:text-pink-500">
+                    <a href="https://www.instagram.com/kkn201_babakanpeuteuy/" target="_blank" className="text-white hover:text-pink-500">
                       <i className="fa-brands text-xl sm:text-2xl fa-instagram" />
                     </a>
-                    <a href="https://www.tiktok.com/@kkn201_uinbdg/" target="_blank" className="hover:text-purple-500">
+                    <a href="https://www.tiktok.com/@kkn201_uinbdg/" target="_blank" className="text-white hover:text-purple-500">
                        <i className="fa-brands text-xl sm:text-2xl fa-tiktok" />
                     </a>
-                    <a href="https://youtube.com/@ieu_imron_volleyball/" target="_blank" className="hover:text-red-500">
+                    <a href="https://youtube.com/@ieu_imron_volleyball/" target="_blank" className="text-white hover:text-red-500">
                        <i className="fa-brands text-xl sm:text-2xl fa-youtube" />
                     </a>
-                    <a href="mailto:kkn201babakanpeuteuy@gmail.com" target="_blank" className="hover:text-green-500">
+                    <a href="mailto:kkn201babakanpeuteuy@gmail.com" target="_blank" className="text-white  hover:text-green-500">
                        <i className="fas text-xl sm:text-2xl fa-envelope" />
                     </a>
                   </div>
@@ -132,10 +132,11 @@ export function Profile() {
                 <Typography className="mb-6 font-normal text-blue-gray-500 text-justify">
                   Para Mahasiswa UIN SGD Bandung yang datang dari berbagai Jurusan dan berasal dari daerah asal yang berbeda yang kemudian di pertemukan di KKN Sisdamas 2024 untuk mengabdi dan mengimplementasikan Tri Darma Perguruan Tinggi nya dengan penuh dedikasi.
                 </Typography>
-                
-                <Typography variant="h4" color="blue-gray text-justify">         
+
+                <Typography variant="h4" color="white" >         
                  Peta Lokasi Babakanpeuteuy
                   </Typography>
+                
 
                 <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.118314579644!2d107.71821431432122!3d-7.01537049493367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e68aafbfac23%3A0x3a83d927e51a38db!2sDesa%20Babakanpeuteuy%2C%20Kec.%20Cicalengka%2C%20Kab.%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sen!2sid!4v1624259353735!5m2!1sen!2sid"
@@ -166,9 +167,31 @@ export function Profile() {
           </div>
         </div>
       </section>
-      <div className="bg-white">
-        <Footer />
+      <div className="bg-white flex justify-center py-6">
+        <div className="flex flex-col gap-2 text-center">
+        <h1 className="text-2xl font-bold">Ikuti Sosial Media Kami</h1>
+        <p className="text-blue-gray-500 px-14 sm:px-0">Kenali Lebih Dekat Dengan Kelompok 201 KKN SISDAMAS</p>
+        <div className="py-2 flex justify-center gap-3 sm:gap-5">
+          <a href="https://youtube.com/@ieu_imron_volleyball/" target="_blank" className="hover:text-red-500">
+          <i className="fa-brands text-xl  fa-youtube" />
+          </a>
+          <a href="https://www.instagram.com/kkn201_babakanpeuteuy/" target="_blank"  className="hover:text-pink-500">
+          <i className="fa-brands text-xl  fa-instagram" />
+          </a>
+          <a href="https://www.tiktok.com/@kkn201_uinbdg/" target="_blank" className="hover:text-purple-500">
+          <i className="fa-brands text-xl  fa-tiktok" />
+          </a>
+        </div>
+        </div>
+
+        </div>
+        <div className="py-2 bg-white border-t-[1px] border-gray-200">
+          <p className="text-center text-gray-500 text-sm">Copyright © 2024 | Rizka M Imron</p>
+
       </div>
+      {/* <div className="bg-white">
+        <Footer />
+      </div> */}
     </>
   );
 }

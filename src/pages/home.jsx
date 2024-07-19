@@ -23,10 +23,10 @@ import OurTeamsCarousel from "@/widgets/Carousel/OurTeamCarousel";
 export function Home() {
   return (
     <>
-      <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
+      <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32 ">
         <div className="absolute top-0 h-full w-full bg-[url('/img/background-1.jpg')] bg-cover bg-center" />
         <div className="absolute top-0 h-full w-full bg-black/60 bg-cover bg-center" />
-        <div className="max-w-8xl container relative mx-auto">
+        <div className="max-w-8xl container relative mx-auto ">
           <div className="flex flex-wrap items-center">
             <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
               <Typography
@@ -48,9 +48,9 @@ export function Home() {
           </div>
         </div>
       </div>
-      <section className="-mt-32 bg-white px-4 pb-1 pt-4">
+      <section className="-mt-32 bg-[#0F172A] px-4 pb-1 pt-4">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 ">
             {featuresData.map(({ color, title, icon, description }) => (
               <FeatureCard
                 key={title}
@@ -116,12 +116,18 @@ export function Home() {
           </div> */}
         </div>
       </section>
-      <section className="px-4 pt-10 pb-10">
+      <section className="px-4 pt-10 pb-10 bg-[#0F172A]">
         {/* <OurTeamSlider/> */}
         <div className="container mx-auto">
-          <PageTitle section="" heading="Our Team">
+          <div className="my-4">
+          <h1 className="text-white font-bold text-center text-4xl">Our Team</h1>
+
+          <p className="text-white text-center text-xl mt-5  sm:w-full">Ini Adalah Jajaran Tim Kelompok 201 KKN Sisdamas</p>
+
+          </div>
+          {/* <PageTitle section="" heading="Our Team">
           Ini Adalah Jajaran Tim Kelompok 201 KKN Sisdamas
-          </PageTitle>
+          </PageTitle> */}
           <OurTeamsCarousel teamData={teamData}/>
           {/* <div className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-4">
             {teamData.map(({ img, name, position,major,  socials }) => (
@@ -146,13 +152,13 @@ export function Home() {
         </div>
 
         
+      </section>
         <Typography
                 variant="h3"
-                className="mb--10 mt-10 font-bold text-center"
-                color="blue-gray" >           
+                className="mb-10 mt-10 font-bold text-center"
+                color="white" >           
                  Semua Aktifitas KKN
               </Typography>
-      </section>
      
               
             <section className="md:pl-20 lg:px-20">
@@ -164,7 +170,7 @@ export function Home() {
               <Typography
                 variant="h3"
                 className="mb-3 font-bold"
-                color="blue-gray"
+                color="white"
               >
                Dokumentasi Seluruh Kegiatan
               </Typography>
@@ -173,6 +179,7 @@ export function Home() {
                 <br />
                 <br />
                 Dokumentasi ini mencakup berbagai aktivitas yang dilakukan selama periode KKN, yang bertujuan untuk memberdayakan masyarakat setempat melalui berbagai program pengembangan sosial dan ekonomi.
+                
               </Typography>
               <Button variant="filled">Lanjutkan Membaca Dokumentasi</Button>
             </div>
@@ -205,14 +212,15 @@ export function Home() {
             <KegiatanCarousel/>
           </div>
       </section>
-      <section className="relative bg-white py-24 px-4">
-        <div className="container mx-auto">
+  
+      <section className="relative bg-[#0F172A] py-24 px-4">
+        {/* <div className="container mx-auto text-white">
           <PageTitle section="Co-Working" heading="Build something">
             Put the potentially record low maximum sea ice extent tihs year down
             to low ice. According to the National Oceanic and Atmospheric
             Administration, Ted, Scambos.
           </PageTitle>
-          <div className="mx-auto mt-20 mb-48 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mx-auto mt-20 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
             {contactData.map(({ title, icon, description }) => (
               <Card
                 key={title}
@@ -265,11 +273,33 @@ export function Home() {
               Send Message
             </Button>
           </form>
-        </div>
+        </div> */}
       </section>
-      <div className="bg-white">
-        <Footer />
+      <div className="bg-white flex justify-center py-6">
+        <div className="flex flex-col gap-2 text-center">
+        <h1 className="text-2xl font-bold">Ikuti Sosial Media Kami</h1>
+        <p className="text-blue-gray-500 px-14 sm:px-0">Kenali Lebih Dekat Dengan Kelompok 201 KKN SISDAMAS</p>
+        <div className="py-2 flex justify-center gap-3 sm:gap-5">
+          <a href="https://youtube.com/@ieu_imron_volleyball/" target="_blank" className="hover:text-red-500">
+          <i className="fa-brands text-xl  fa-youtube" />
+          </a>
+          <a href="https://www.instagram.com/kkn201_babakanpeuteuy/" target="_blank"  className="hover:text-pink-500">
+          <i className="fa-brands text-xl  fa-instagram" />
+          </a>
+          <a href="https://www.tiktok.com/@kkn201_uinbdg/" target="_blank" className="hover:text-purple-500">
+          <i className="fa-brands text-xl  fa-tiktok" />
+          </a>
+        </div>
+        </div>
+
+        </div>
+        <div className="py-2 bg-white border-t-[1px] border-gray-200">
+          <p className="text-center text-gray-500 text-sm">Copyright © 2024 | Rizka M Imron</p>
+
       </div>
+      {/* <div className="bg-white">
+        <Footer />
+      </div> */}
     </>
   );
 }
