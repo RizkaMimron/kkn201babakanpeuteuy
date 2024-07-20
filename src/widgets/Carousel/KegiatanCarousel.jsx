@@ -67,7 +67,7 @@ const KegiatanCarousel = () => {
               <Typography variant="small" color="blue-gray" className="font-normal">Pertemuan Pertama</Typography>
               <Typography
                 variant="h5"
-                color="blue-gray"
+                color="black"
                 className="mb-3 mt-2 font-bold"
               >
                 Pembahasan Fiksasi Bidang dan RAB
@@ -78,6 +78,8 @@ const KegiatanCarousel = () => {
             </CardBody>
           </Card>
         </div>
+
+        
         <div>
           <Card className="shadow-lg border shadow-blue-500/10 rounded-lg">
             <CardHeader floated={false} className="relative h-72">
