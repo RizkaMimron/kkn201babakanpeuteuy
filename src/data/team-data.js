@@ -6,6 +6,7 @@ export const teamData = [
     position: "Ketua",
     socials: [
       {
+        href:"https://www.instagram.com/azwr_azka/",
         color: "pink",
         name: "instagram",
         
@@ -19,6 +20,7 @@ export const teamData = [
     position: "Sekretaris",
     socials: [
       {
+        href:"https://www.instagram.com/naalfiyah_/",
         color: "pink",
         name: "instagram",
       },
@@ -31,6 +33,7 @@ export const teamData = [
     position: "Bendahara",
     socials: [
       {
+        href:"https://www.instagram.com/savitriagstn/",
         color: "pink",
         name: "instagram",
       },
@@ -43,6 +46,7 @@ export const teamData = [
     position: "Publikasi Dokumentasi",
     socials: [
       {
+        href:"https://instagram.com/imron.juniartha/",
         color: "pink",
         name: "instagram",
       },
@@ -56,6 +60,7 @@ export const teamData = [
     position: "Publikasi Dokumentasi",
     socials: [
       {
+        href:"https://www.instagram.com/fadiaary/",
         color: "pink",
         name: "instagram",
       },
@@ -69,6 +74,7 @@ export const teamData = [
     position: "Publikasi Dokumentasi",
     socials: [
       {
+        href:"https://www.instagram.com/rifkifza/",
         color: "pink",
         name: "instagram",
       },
@@ -82,6 +88,7 @@ export const teamData = [
     position: "Humas Logistik",
     socials: [
       {
+        href:"https://www.instagram.com/salsamaulidaaa/",
         color: "pink",
         name: "instagram",
       },
@@ -95,6 +102,7 @@ export const teamData = [
     position: "Humas Logistik",
     socials: [
       {
+        href:"https://www.instagram.com/nurholisfajar/",
         color: "pink",
         name: "instagram",
       },
@@ -108,6 +116,7 @@ export const teamData = [
     position: "Humas Logistik",
     socials: [
       {
+        href:"https://www.instagram.com/firsyaradhitasyahirarahmi/",
         color: "pink",
         name: "instagram",
       },
@@ -121,6 +130,7 @@ export const teamData = [
     position: "Acara",
     socials: [
       {
+        href:"https://www.instagram.com/icaachy/",
         color: "pink",
         name: "instagram",
       },
@@ -134,6 +144,7 @@ export const teamData = [
     position: "Acara",
     socials: [
       {
+        href:"https://www.instagram.com/rull.esm/",
         color: "pink",
         name: "instagram",
       },
@@ -147,6 +158,7 @@ export const teamData = [
     position: "Acara",
     socials: [
       {
+        href:"https://www.instagram.com/annisa_fauziah01/",
         color: "pink",
         name: "instagram",
       },
@@ -160,6 +172,7 @@ export const teamData = [
     position: "Konsumsi",
     socials: [
       {
+        href:"https://www.instagram.com/salsabilasb21_/",
         color: "pink",
         name: "instagram",
       },
@@ -173,6 +186,7 @@ export const teamData = [
     position: "Konsumsi",
     socials: [
       {
+        href:"https://www.instagram.com/fthranidell/",
         color: "pink",
         name: "instagram",
       },

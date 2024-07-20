@@ -79,22 +79,22 @@ const KegiatanCarousel = () => {
           </Card>
         </div>
         <div>
-          <Card className="shadow-lg border shadow-gray-500/10 rounded-lg">
+          <Card className="shadow-lg border shadow-blue-500/10 rounded-lg">
             <CardHeader floated={false} className="relative h-72">
               <img
                 alt="Card Image"
-                src="/img/MeetKKN1.jpg"
+                src="/img/survei1.jpg"
                 className="h-full w-full"
               />
             </CardHeader>
             <CardBody>
-              <Typography variant="small" color="blue-gray" className="font-normal">Pertemuan Kedua</Typography>
+              <Typography variant="small" color="blue-gray" className="font-normal">Jumat 19 Juli 2024</Typography>
               <Typography
                 variant="h5"
                 color="blue-gray"
                 className="mb-3 mt-2 font-bold"
               >
-                Evaluasi Tengah Kegiatan
+                Survei Lokasi Desa Babakanpeuteuy
               </Typography>
               <ReadMore>
                 Pada pertemuan kedua, kami mengevaluasi progres kegiatan yang telah berjalan dan menyusun strategi untuk menyelesaikan kegiatan sesuai dengan rencana.

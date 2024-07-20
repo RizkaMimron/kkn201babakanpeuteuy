@@ -45,10 +45,12 @@ const OurTeamsCarousel = ({ teamData }) => {
             position={position}
             socials={
               <div className="flex items-center gap-2 ">
-                {socials.map(({ color, name }) => (
+                {socials.map(({ href, color, name }) => (
+                  <a href={href} target='_blank'>
                   <IconButton key={name} color={color} variant="text">
                     <i className={`fa-brands text-xl fa-${name}`} />
                   </IconButton>
+                  </a>
                 ))}
               </div>
             }

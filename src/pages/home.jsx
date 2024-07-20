@@ -186,7 +186,7 @@ export function Home() {
               </Typography>
               <Typography className="mb-6 font-normal text-white text-justify">
              
-              Kegiatan Kuliah Kerja Nyata (KKN) Sisdamas Kelompok 201 di Desa Babakanpeuteuy, Kecamatan Cicalengka, Kabupaten Bandung Timur, Jawa Barat, dilaksanakan dengan penuh semangat dan dedikasi oleh seluruh anggota kelompok. Dengan tujuan mulia untuk meningkatkan kesejahteraan masyarakat setempat, para mahasiswa berkomitmen melaksanakan berbagai program yang dirancang secara matang dan sistematis.
+              Kegiatan Kuliah Kerja Nyata (KKN) Sisdamas Kelompok 201 di Desa Babakanpeuteuy, Kecamatan Cicalengka, Kabupaten Bandung Timur, Jawa Barat, dilaksanakan dengan tujuan mulia untuk meningkatkan kesejahteraan masyarakat setempat, para mahasiswa berkomitmen melaksanakan berbagai program yang dirancang secara matang dan sistematis.
 
 
                 <br />
