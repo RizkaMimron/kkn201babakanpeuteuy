@@ -8,6 +8,7 @@ export const teamData = [
       {
         color: "pink",
         name: "instagram",
+        
       },
     ],
   },

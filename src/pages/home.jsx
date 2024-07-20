@@ -29,6 +29,8 @@ export function Home() {
         <div className="max-w-8xl container relative mx-auto ">
           <div className="flex flex-wrap items-center">
             <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
+
+
               <Typography
                 variant="h1"
                 color="white"
@@ -37,10 +39,16 @@ export function Home() {
               >
                 KKN SISDAMAS 201 | 2024
               </Typography>
-              <Typography variant="lead" color="white" className="opacity-80">
+
+              <Typography 
+              variant="lead" 
+              color="white" className="opacity-80">
                 "Selamat Datang di Website Resmi KKN (Kuliah Kerja Nyata) Sisdamas"
               </Typography>
-              <Typography variant="lead" color="white" className="opacity-80">
+
+              <Typography 
+              variant="lead" 
+              color="white" className="opacity-80">
               UIN Sunan Gunung Djati Bandung"
               </Typography>
             
@@ -120,9 +128,9 @@ export function Home() {
         {/* <OurTeamSlider/> */}
         <div className="container mx-auto">
           <div className="my-4">
-          <h1 className="text-white font-bold text-center text-4xl">Our Team</h1>
+          <h1 className="text-white font-bold text-center text-4xl">STAF KHUSUS</h1>
 
-          <p className="text-white text-center text-xl mt-5  sm:w-full">Ini Adalah Jajaran Tim Kelompok 201 KKN Sisdamas</p>
+          <p className="text-white text-center text-xl mt-5  sm:w-full">KKN SISDAMAS 201 UIN SGD BANDUNG</p>
 
           </div>
           {/* <PageTitle section="" heading="Our Team">
@@ -157,16 +165,18 @@ export function Home() {
                 variant="h3"
                 className="mb-10 mt-10 font-bold text-center"
                 color="white" >           
-                 Semua Aktifitas KKN
+                 AKTIVITAS
               </Typography>
      
               
             <section className="md:pl-20 lg:px-20">
             <div className="mt-10 flex flex-wrap items-center">
             <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
+
               <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-blue-gray-900 p-2 text-center shadow-lg">
                 <FingerPrintIcon className="h-8 w-8 text-white " />
               </div>
+              
               <Typography
                 variant="h3"
                 className="mb-3 font-bold"
@@ -174,11 +184,19 @@ export function Home() {
               >
                Dokumentasi Seluruh Kegiatan
               </Typography>
-              <Typography className="mb-6 font-normal text-blue-gray-500 text-justify">
-              Kegiatan Kuliah Kerja Nyata (KKN) Sisdamas Kelompok 201 di Desa Babakanpeuteuy, Kecamatan Cicalengka, Kabupaten Bandung Timur, Jawa Barat, dilaksanakan dengan penuh semangat dan dedikasi oleh seluruh anggota kelompok.
+              <Typography className="mb-6 font-normal text-white text-justify">
+             
+              Kegiatan Kuliah Kerja Nyata (KKN) Sisdamas Kelompok 201 di Desa Babakanpeuteuy, Kecamatan Cicalengka, Kabupaten Bandung Timur, Jawa Barat, dilaksanakan dengan penuh semangat dan dedikasi oleh seluruh anggota kelompok. Dengan tujuan mulia untuk meningkatkan kesejahteraan masyarakat setempat, para mahasiswa berkomitmen melaksanakan berbagai program yang dirancang secara matang dan sistematis.
+
+
                 <br />
                 <br />
-                Dokumentasi ini mencakup berbagai aktivitas yang dilakukan selama periode KKN, yang bertujuan untuk memberdayakan masyarakat setempat melalui berbagai program pengembangan sosial dan ekonomi.
+                Dokumentasi ini mengisahkan rangkaian aktivitas yang penuh makna selama periode KKN, berfokus pada pemberdayaan masyarakat setempat melalui program-program pengembangan sosial dan ekonomi yang mengakar dan bermakna.Setiap program dirancang untuk memberikan dampak positif dan berkelanjutan, Setiap senyum warga yang merekah menjadi bukti nyata dari usaha mereka, menguatkan tekad untuk terus berkontribusi dan meninggalkan warisan positif di Desa Babakanpeuteuy.
+
+                <br />
+                <br />
+
+                Dalam kebersamaan yang terjalin, KKN Sisdamas Kelompok 201 tidak hanya memberikan ilmu dan bantuan, tetapi juga menerima pelajaran berharga dari kearifan lokal. Semangat gotong royong dan kehangatan masyarakat menjadi bahan bakar yang menyulut api semangat dalam diri setiap anggota kelompok. Dengan segala usaha dan kerja keras, mereka berharap bahwa program-program ini akan terus memberikan manfaat, melanjutkan perjalanan menuju masa depan yang lebih cerah dan berdaya.
                 
               </Typography>
               <Button variant="filled">Lanjutkan Membaca Dokumentasi</Button>
@@ -209,7 +227,7 @@ export function Home() {
                 </CardBody>
               </Card>
             </div> */}
-            <KegiatanCarousel/>
+            <KegiatanCarousel/> 
           </div>
       </section>
   

@@ -37,7 +37,7 @@ const KegiatanCarousel = () => {
       <style>
         {`
           .slick-prev:before, .slick-next:before {
-            color: blue; /* Warna biru untuk arrow */
+            color: white; /* Warna biru untuk arrow */
           }
           .slick-dots li button:before {
             color: red; /* Warna merah untuk dots */
