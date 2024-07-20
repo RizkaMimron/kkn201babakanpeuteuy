@@ -49,7 +49,7 @@ export function Home() {
               <Typography 
               variant="lead" 
               color="white" className="opacity-80">
-              UIN Sunan Gunung Djati Bandung"
+              UIN Sunan Gunung Djati Bandung
               </Typography>
             
             </div>
