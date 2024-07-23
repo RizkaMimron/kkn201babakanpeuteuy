@@ -154,7 +154,7 @@ export function Home() {
         <div className="container mx-auto">
           <div className="my-16">
             
-          <h1 className="text-white font-bold text-center text-4xl">Staf <Khusus></Khusus></h1>
+          <h1 className="text-white font-bold text-center text-4xl">Staf Keanggotaan</h1>
 
           <p className="text-white text-center text-xl mt-5  sm:w-full">Kelompok Kita Ya Gimana Kita  Lahhh</p>
 
