@@ -68,7 +68,7 @@ export function Navbar({ brandName, routes, action }) {
     <MTNavbar color="transparent" className="p-3">
       <div className="container mx-auto flex items-center justify-between text-white">
         <Link to="/">
-        <img src="/img/logokkn.png" width={150} height={150} className="w-20 sm:w-28 h-auto" />
+        <img src="/img/kknicon.png" width={150} height={150} className="w-20 sm:w-28 h-auto" />
           {/* <Typography className="mr-4 ml-2 cursor-pointer py-1.5 font-bold sm:text-xl">
             {brandName}
           </Typography> */}
@@ -131,7 +131,7 @@ Navbar.defaultProps = {
     <a
     >
       <Typography className="font-bold"  size="sm" fullwidth="true">
-       KKN SISDAMAS 201
+     Selamat Datang !
       </Typography>
       
     </a>

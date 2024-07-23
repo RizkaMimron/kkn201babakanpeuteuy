@@ -1,15 +1,18 @@
 import {
   ChatBubbleBottomCenterTextIcon,
+  
 } from "@heroicons/react/24/solid";
+import { MapPinIcon } from "@heroicons/react/24/outline";
 
 export const featuresData = [
+
+  
   {
     color: "blue", 
     title: "Lokasi KKN",
-    icon: ChatBubbleBottomCenterTextIcon,
-    order: 2, 
+    icon: MapPinIcon,
     description:
-      "Lokasi KKN Sisdamas Kelompok 201 Bertemapt di Desa Babakanpeuteuy Kecamatan Cicalengka Kabupaten Bandung Timur Jawa Barat",
+      "Lokasi KKN Sisdamas Kelompok 201 Bertempat di Desa Babakanpeuteuy Kecamatan Cicalengka Kabupaten Bandung Timur Jawa Barat",
       
   },
 
@@ -17,7 +20,7 @@ export const featuresData = [
     color: "blue",
     title: "Target KKN",
     icon: ChatBubbleBottomCenterTextIcon,
-    description: "Mampu menerapkan ipteks secara multidisipliner bagi kepentingan masyarakat dan meningkatkan interaksi, pemahaman dan kepedulian mahasiswa dari berbagai prodi dalam memberdayakan masyarakat.",
+    description: "Menerapkan ilmu pengetahuan yang dipelajari oleh mahasiswa dalam situasi nyata di masyarakat, membantu meningkatkan kesejahteraan masyarakat melalui program pemberdayaan, serta mengembangkan keterampilan soft skills seperti kepemimpinan dan komunikasi.",
   },
 
   {
@@ -25,10 +28,8 @@ export const featuresData = [
     title: "Waktu Pelaksanaan",
     icon: ChatBubbleBottomCenterTextIcon,
     description:
-      "KKN Sisdamas Dilaksanakan Dari Mulai Tanggal 28 Juli 2024 sampai Tanggal 30 Agustus 2024",
+      "KKN Sisdamas Dilaksanakan Dari Mulai Tanggal 28 Juli 2024 sampai Tanggal 31 Agustus 2024",
   },
-  
-   
     
 ];
 

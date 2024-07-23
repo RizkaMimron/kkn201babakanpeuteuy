@@ -5,16 +5,21 @@ import {
   BuildingLibraryIcon,
 } from "@heroicons/react/24/solid";
 import { Footer } from "@/widgets/layout";
+import { FeatureCard, TeamCard } from "@/widgets/cards";
+import { featuresData, teamData, contactData } from "@/data";
+import KegiatanCarousel from "@/widgets/Carousel/KegiatanCarousel";
+import OurTeamSlider from "@/widgets/Carousel/OurTeamCarousel";
+import OurTeamsCarousel from "@/widgets/Carousel/OurTeamCarousel";  
 
 export function Profile() {
   return (
     <>
+
+    
       <section className="relative block h-screen"> {/* Changed h-[50vh] to h-screen */}
         <div className="absolute top-0 h-full w-full bg-[url('/img/background-1.jpg')] bg-cover bg-center" />
 
         <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
-        
-        
 
               </div>
         <div className="absolute top-0 h-full w-full bg-black/60 bg-cover bg-center" />
@@ -134,7 +139,7 @@ export function Profile() {
                   <MapPinIcon className="-mt-px h-10 w-4 text-blue-gray-500" />
                   
                   <Typography className="font-medium text-blue-gray-500">
-                   Jl. A.H. Nasution No.105
+                   Jl. A.H. Nasution No.105, Cibiru Bandung
                   </Typography>
                 </div>
                 {/* <div className="flex items-center gap-2">
@@ -164,7 +169,13 @@ export function Profile() {
                   
                  Peta Lokasi Babakanpeuteuy
                   </Typography>
-                
+                  <div className="flex w-full flex-col items-start lg:w-full">
+                <Typography className="mb-6 font-normal text-blue-gray-500 text-justify">
+                Babakan Peuteuy merupakan sebuah desa yang terletak dalam (daerah) kecamatan Cicalengka, Kabupaten Bandung, Provinsi Jawa Barat, Indonesia. 
+
+                  
+                </Typography>
+                </div>
                   <div className="hidden lg:block" >
                     <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.118314579644!2d107.71821431432122!3d-7.01537049493367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e68aafbfac23%3A0x3a83d927e51a38db!2sDesa%20Babakanpeuteuy%2C%20Kec.%20Cicalengka%2C%20Kab.%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sen!2sid!4v1624259353735!5m2!1sen!2sid"
@@ -175,6 +186,8 @@ export function Profile() {
                     loading="lazy"
                   
                   ></iframe>
+
+
 
                   
                 </div>
@@ -196,15 +209,15 @@ export function Profile() {
                       allowFullScreen=""
                       loading="lazy"
                       className="w-full h-full left-0 top-0 absolute"
+                      
                     ></iframe>
 
                     
                   </div>
-              
-            </div>
-
+           
+            
             <div className="mt-10">
-              
+              </div>
 
 </div>
 

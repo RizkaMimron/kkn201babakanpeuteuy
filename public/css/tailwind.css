@@ -18,3 +18,19 @@ body {
     top: 0;
     position: absolute;
   }
+
+  .transparent-bg {
+    background-color: transparent;
+  }
+
+
+  .custom-box {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    max-width: 600px; /* Adjust the width as needed */
+    margin: 0 auto;   /* Centers the box horizontally */
+  }
+
+
+  
