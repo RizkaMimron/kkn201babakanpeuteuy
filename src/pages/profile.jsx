@@ -4,12 +4,7 @@ import {
   BriefcaseIcon,
   BuildingLibraryIcon,
 } from "@heroicons/react/24/solid";
-import { Footer } from "@/widgets/layout";
-import { FeatureCard, TeamCard } from "@/widgets/cards";
-import { featuresData, teamData, contactData } from "@/data";
-import KegiatanCarousel from "@/widgets/Carousel/KegiatanCarousel";
-import OurTeamSlider from "@/widgets/Carousel/OurTeamCarousel";
-import OurTeamsCarousel from "@/widgets/Carousel/OurTeamCarousel";  
+
 
 export function Profile() {
   return (
